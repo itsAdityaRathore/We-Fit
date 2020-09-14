@@ -1,0 +1,43 @@
+
+import 'package:flutter/material.dart';
+
+//Strings
+
+const appTitle = 'We Fit';
+
+
+// Pages
+const loginPageTag = 'Login Page';
+const homePageTag = 'Home Page';
+const bmiPageTag = 'BMI Page';
+const dashboardTag = 'Dashboard Page';
+
+const kTextColor = Color(0xFF8d8e98);
+const unselectedIconColor = Color(0xff757575);
+const selectedIconColor = Color(0xfffefefe);
+
+const kNumberStyle = TextStyle(fontSize: 50.0, fontWeight: FontWeight.w900);
+const kResultTitleStyle =
+    TextStyle(fontSize: 50.0, fontWeight: FontWeight.w500);
+
+const kLabelTextStyle = TextStyle(fontSize: 18.0, color: kTextColor);
+
+const kBottomContainerHeight = 80.0;
+const kActiveCardColor = Color(0xFF1d1e33);
+const kInactiveCardColor = Color(0xFF111328);
+const kBottomContainerColor = Color(0xFF024899); //0xFFeb1555
+const kSliderOverlayColor = Color(0x39021595);
+const kSliderInactiveColor = Color(0xFF8d8e98);
+
+const kLargeButtonTextStyle = TextStyle(
+  fontSize: 25.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kResultBMI = TextStyle(
+  fontSize: 100.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kResultText = TextStyle(
+    color: Color(0xff24d876), fontSize: 22.0, fontWeight: FontWeight.bold);
